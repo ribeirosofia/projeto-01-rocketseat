@@ -11,12 +11,17 @@
   justify-content: center;
 }
 
+body {
+  margin: 0 auto;
+}
+
 h1 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 49px;
   text-align: center;
   line-height: 56px;
+  margin-bottom: 32px;
 }
 
 .paragraph-style {
@@ -35,7 +40,7 @@ ul {
   align-items: center;
   justify-content: center;
   margin: 72px auto 33px;
-  gap: 50px;
+  gap: 28px;
 }
 
 ul li a {
@@ -43,4 +48,10 @@ ul li a {
   font-weight: 400;
   font-size: 14px;
   color: var(--link-color);
+}
+
+.footer-img {
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
 }
