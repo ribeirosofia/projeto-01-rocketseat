@@ -51,6 +51,7 @@ ul li a {
 }
 
 .footer-img {
-  display: flex;
-  justify-content: flex-end;
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
 }
